@@ -1,0 +1,21 @@
+{
+  "name": "kanji-lookup",
+  "version": "1.0.0",
+  "description": "kanji looup using kaniapi.dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "parse-csv": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luca Galeazzi jokgitti@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "fast-csv": "^5.0.1",
+    "node-fetch": "^3.3.2",
+    "path": "^0.12.7"
+  },
+  "volta": {
+    "node": "20.16.0"
+  }
+}
